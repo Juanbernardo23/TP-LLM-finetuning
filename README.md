@@ -1,7 +1,7 @@
-Proyecto de Entrenamiento de IA
+#Proyecto de Entrenamiento de IA
 Este repositorio contiene los archivos necesarios para entrenar, ajustar y probar un modelo de lenguaje utilizando fine-tuning sobre un modelo preentrenado de tipo MiniLM.
 
-Estructura de Carpetas y Archivos
+##Estructura de Carpetas y Archivos
 data/
 Carpeta que contiene el dataset de entrenamiento en formato .json.
 El archivo principal, train.json, es cargado por el script train.py para iniciar el proceso de fine-tuning.
@@ -15,7 +15,7 @@ tokenizer.json
 
 tokenizer_config.json
 
-Archivos binarios del modelo (pytorch_model.bin o similar)
+##Archivos binarios del modelo (pytorch_model.bin o similar)
 
 Este modelo sirve como punto de partida para el fine-tuning personalizado.
 
